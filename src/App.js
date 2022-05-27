@@ -17,7 +17,7 @@ const App = () => {
   };
 
   const onKeyPress = (e) => {
-    if (e.key == "Enter") {
+    if (e.key === "Enter") {
       searchMovies(searchTerm);
     }
   };
